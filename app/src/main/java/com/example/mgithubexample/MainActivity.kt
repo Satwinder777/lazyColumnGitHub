@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
                         MyLazyClm(list)
                         var painter = painterResource(id = R.drawable.foodimg)
                         imageImpl(painter)
+                        Greeting("Sahil Sir !!")
                     }
                 }
             }
