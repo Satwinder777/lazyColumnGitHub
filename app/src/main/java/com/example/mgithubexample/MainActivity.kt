@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
 
                     ) {
-                        Greeting("Satwinder")
                         var list = listOf<String>("jatin","satwinder","Raman","Sahil","Hrmam","Abhishek")
                         MyLazyClm(list)
                         var painter = painterResource(id = R.drawable.foodimg)
@@ -46,6 +45,8 @@ class MainActivity : ComponentActivity() {
 
                         //Greet jatin!!
                         Greeting("Jatin Sir !!")
+
+                        Greeting("Satwinder SherGill")
 
                     }
                 }
