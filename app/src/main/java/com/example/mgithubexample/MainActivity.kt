@@ -43,6 +43,10 @@ class MainActivity : ComponentActivity() {
                         var painter = painterResource(id = R.drawable.foodimg)
                         imageImpl(painter)
                         Greeting("Sahil Sir !!")
+
+                        //Greet jatin!!
+                        Greeting("Jatin Sir !!")
+
                     }
                 }
             }
